@@ -3,7 +3,7 @@
 
 	   composer require rgmatute/adminlte-laravel
 
-# To register the Service Provider edit config/app.php file and add to providers array:
+To register the Service Provider edit config/app.php file and add to providers array:
 	
 		Rgmatute\AdminLTELaravel\Providers\AdminLTELaravelServiceProvider::class,
 
