@@ -18,6 +18,7 @@ OR
 
 
 <span style="color:red;">To test the examples included it is important to copy in your preferred routes in web.php</span>
+<font color="red">To test the examples included it is important to copy in your preferred routes in web.php</font>
 
 		require __DIR__.'/adminlteExamples.php';
 
