@@ -1,0 +1,27 @@
+{
+    "name": "rgmatute/adminlte-laravel",
+    "description": "Integrar adminlte en cualquier version de laravel es tan facil como dar un solo click, atrevete a dar el click y disfrutalo.",
+    "license": "MIT",
+    "type": "package",
+    "keywords": ["composer", "laravel", "bootstrap", "theme", "admin", "template", "administrator", "admin-lte", "adminlte", "rgmatute"],
+    "authors": [{
+        "name": "rgmatute",
+        "email": "rgmatute91@gmail.com",
+        "homepage": "https://github.com/rgmatute",
+        "role": "Author"
+    }],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "Rgmatute\\AdminLTELaravel\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": ["Rgmatute\\AdminLTELaravel\\Providers\\AdminLTELaravelServiceProvider"]
+        }
+    }
+}
