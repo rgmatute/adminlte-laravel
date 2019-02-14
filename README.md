@@ -16,6 +16,12 @@ OR
 		php artisan vendor:publish --tag=rgmatute --force
 
 
+
+<span style="color:red;">To test the examples included it is important to copy in your preferred routes in web.php</span
+
+		require __DIR__.'/adminlteExamples.php';
+
+
 # use
 
 	@extends('Template.adminlte')
