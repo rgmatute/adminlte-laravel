@@ -1,7 +1,19 @@
 # easy integration AdminLTE in Laravel 5.7 or previus version
-# use command
+# Installation
 
 	   composer require rgmatute/adminlte-laravel
+
+# To register the Service Provider edit config/app.php file and add to providers array:
+	
+		Rgmatute\AdminLTELaravel\Providers\AdminLTELaravelServiceProvider::class,
+
+Publish files with:
+
+		php artisan vendor:publish --tag=rgmatute
+
+OR
+
+		php artisan vendor:publish --tag=rgmatute --force
 
 
 # use
