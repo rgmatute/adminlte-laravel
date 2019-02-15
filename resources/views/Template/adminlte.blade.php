@@ -7,7 +7,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>{!! config('adminlte.title') !!}</title>
-		<link rel="icon" href="{!! config('adminlte.favicon') !!}"/>
+		<link rel="icon" href="{!! asset(config('adminlte.favicon')) !!}"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
 		@include('Template.Adminlte.styles')
 		@stack('styles')

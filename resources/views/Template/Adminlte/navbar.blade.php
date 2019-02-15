@@ -1,6 +1,6 @@
 <header class="main-header">
 	<!-- Logo -->
-	<a href="index2.html" class="logo">
+	<a href="/" class="logo">
 	  <!-- mini logo for sidebar mini 50x50 pixels -->
 	  	@if(config('adminlte.navbar-logo-mini') === true)
 		  <span class="logo-mini">{!! config('adminlte.logo-mini') !!}</span>

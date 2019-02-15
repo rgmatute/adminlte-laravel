@@ -14,7 +14,7 @@
 		        <a href="#">
 		          <div class="pull-left">
 		            <!-- User Image -->
-		            <img src="{{ config('adminlte.avatar') }}" class="img-circle" alt="User Image">
+		            <img src="{{ asset(config('adminlte.avatar')) }}" class="img-circle" alt="User Image">
 		          </div>
 		          <!-- Message title and timestamp -->
 		          <h4>
