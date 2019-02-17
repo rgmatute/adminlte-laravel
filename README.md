@@ -1,5 +1,4 @@
 ## easy integration AdminLTE in Laravel 5.7 or previus version
-============
 
 [![Packagist](https://img.shields.io/badge/packagist-dev--master-success.svg)](https://packagist.org/packages/rgmatute/adminlte-laravel)
 [![Mit License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
@@ -16,7 +15,6 @@
 ![Screenshot 4](http://telematico-tools.azurewebsites.net/cloud/adminlte/setting1902.png)
 
 # Installation
-============
 
 	   composer require rgmatute/adminlte-laravel
 
